@@ -244,7 +244,14 @@ section .hw-color {
   color: #888888;
 }
 
-.fa-whatsapp {
+/*how it works call styling*/
+.call {
+  text-decoration: underline;
+  color: #888888;
+}
+
+/*how it works whatsapp styling*/
+.how-it-whatsapp {
   margin-top: 15px;
   position: relative;
   left: -25px;
@@ -262,6 +269,12 @@ section .hw-color {
 .wa-size {
   position: relative;
   right: 12px;
+}
+
+/*How it works WhatsAppLink styling*/
+.whatsapp-link {
+  text-decoration: underline;
+  color: #888888;
 }
 
 /*Positioning wallet icon*/
@@ -371,7 +384,7 @@ section .hw-color {
 /*Contact us styling*/
 .contact-us {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   padding: 0;
   margin-top: 70px;
@@ -402,4 +415,48 @@ section .hw-color {
 .fa-comment {
   color: white;
   text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+}
+
+p.contact-us-text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.contact-us-link {
+  margin: 5px 20px;
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 10px 35px;
+  border: 2px solid #000000;
+  color: #390679;
+  min-width: 200px;
+}
+
+.contact-us-link:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.fa-envelope {
+  color: white;
+  text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+}
+
+.fa-hand-peace {
+  color: white;
+  text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+}
+
+.social {
+  background-image: url(/images/hand-two-finger.png);
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+  top: -30px;
 }
