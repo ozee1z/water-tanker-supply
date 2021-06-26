@@ -31,3 +31,19 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 //End of Tawk.to Script
+
+//Creating humberger button menu for smaller devices
+var x = document.getElementById("myLinks");
+
+function myFunction() {
+  
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  }
+  else{
+    x.style.display = "block";
+  }
+}
+//End of humberger button menu for smaller devices
+
+  

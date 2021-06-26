@@ -600,7 +600,8 @@ footer {
   .topnav #myLinks {
     display: none;
     text-align: center;
-    background-color: transparent;
+    background-color: #047aed;
+    border-top: 1px solid #fff;
   }
 
   .topnav a {
