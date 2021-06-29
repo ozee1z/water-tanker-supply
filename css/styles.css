@@ -567,10 +567,6 @@ footer {
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   /*header and .overlay-image:after are from the desktop view*/
 
-  .container {
-    width: 100%;
-  }
-
   header {
     display: none;
   }
