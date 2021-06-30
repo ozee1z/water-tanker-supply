@@ -591,6 +591,10 @@ footer {
     top: 100px;
   }
 
+  section .para-services {
+    font-size: 14px;
+  }
+
   .mobile-container {
     display: block;
     background-color: #047aed;
