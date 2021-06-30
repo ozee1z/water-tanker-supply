@@ -571,6 +571,11 @@ footer {
     display: none;
   }
 
+  /*might make changes depending on 6s viewport*/
+  .overlay-image .image {
+    height: 80vh;
+  }
+
   .overlay-image:after {
     top: 60px;
   }
