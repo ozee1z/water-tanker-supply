@@ -646,6 +646,12 @@ footer {
     text-align: center;
   }
 
+  section .grid-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+  }
+
   /*styling of horizontal scrollable cards*/
   section .grid {
     width: 500px;
