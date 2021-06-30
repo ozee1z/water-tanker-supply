@@ -571,36 +571,6 @@ footer {
     display: none;
   }
 
-  /*might make changes depending on 6s viewport*/
-  .overlay-image .image {
-    height: 80vh;
-  }
-
-  .overlay-image:after {
-    top: 60px;
-    height: 80vh;
-  }
-
-  .overlay-text {
-    font-size: 18px;
-    top: 60px;
-  }
-
-  .hero-text1 {
-    font-size: 14px;
-    top: 100px;
-  }
-
-  section .para-services {
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .sub-heading2-para {
-    font-size: 16px;
-    text-align: center;
-  }
-
   .mobile-container {
     display: block;
     background-color: #047aed;
@@ -644,6 +614,36 @@ footer {
     background-color: black;
     display: block;
     height: 62px;
+  }
+
+  /*might make changes depending on 6s viewport*/
+  .overlay-image .image {
+    height: 80vh;
+  }
+
+  .overlay-image:after {
+    top: 60px;
+    height: 80vh;
+  }
+
+  .overlay-text {
+    font-size: 18px;
+    top: 60px;
+  }
+
+  .hero-text1 {
+    font-size: 14px;
+    top: 100px;
+  }
+
+  section .para-services {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .sub-heading2-para {
+    font-size: 16px;
+    text-align: center;
   }
 
   /*styling of horizontal scrollable cards*/
