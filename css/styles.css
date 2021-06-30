@@ -626,14 +626,14 @@ footer {
     color: white;
     padding: 18px 16px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 16px; /*initially was 14px*/
     display: block;
   }
 
   .topnav a.icon {
     background-color: black;
     display: block;
-    height: 60px;
+    height: 62px;
   }
 
   /*styling of horizontal scrollable cards*/
