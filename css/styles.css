@@ -682,7 +682,8 @@ footer {
 
   /*styling contacts*/
   .h3-contact {
-    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
   }
 
   /*styling of horizontal scrollable cards*/
