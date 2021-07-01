@@ -664,6 +664,11 @@ footer {
     margin-top: 10px;
   }
 
+  /*faq's*/
+  .h2-text {
+    text-align: center;
+  }
+
   /*styling of horizontal scrollable cards*/
   section .grid {
     width: 500px;
