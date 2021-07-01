@@ -729,6 +729,7 @@ footer {
       repeat(16, calc(50% - 40px))
       10px;
     grid-template-rows: minmax(150px, 1fr);
+    overflow-x: scroll; /*changed this*/
   }
 
   section .grid::before,
@@ -737,7 +738,7 @@ footer {
   }
 
   section .cards {
-    width: 200px;
+    width: 100%; /*changed this*/
     text-align: center;
     border: 1px solid #bfbfbf;
     border-radius: 5px;
