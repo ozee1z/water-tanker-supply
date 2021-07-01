@@ -729,6 +729,7 @@ footer {
       repeat(16, calc(50% - 40px))
       10px;
     grid-template-rows: minmax(150px, 1fr);
+    overflow: hidden;
   }
 
   section .grid::before,
@@ -745,5 +746,9 @@ footer {
     background-color: #fff;
     box-shadow: 1px 1px 5px #888888;
     transition: box-shadow 0.2s, transform 0.2s;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: 90px;
   }
 }
