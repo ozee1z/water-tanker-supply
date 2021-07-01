@@ -706,6 +706,12 @@ footer {
     font-size: 20px;
   }
 
+  .copyright-flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
   .footer-copyright {
     color: white;
     font-size: 12px;
