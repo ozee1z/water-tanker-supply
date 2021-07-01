@@ -680,6 +680,11 @@ footer {
     font-size: 16px;
   }
 
+  /*styling contacts*/
+  .h3-contact {
+    font-size: 16px;
+  }
+
   /*styling of horizontal scrollable cards*/
   section .grid {
     width: 500px;
