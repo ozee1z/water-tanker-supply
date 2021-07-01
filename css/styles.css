@@ -686,6 +686,11 @@ footer {
     text-align: center;
   }
 
+  .p-contact {
+    font-size: 18px;
+    text-align: center;
+  }
+
   /*styling of horizontal scrollable cards*/
   section .grid {
     width: 500px;
