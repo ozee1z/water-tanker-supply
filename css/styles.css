@@ -681,6 +681,7 @@ footer {
   }
 
   /*styling contacts*/
+
   .h3-contact {
     font-size: 20px;
     text-align: center;
@@ -692,14 +693,17 @@ footer {
   }
 
   /*Contact us styling*/
-  .contact-us {
-  }
 
   .contact-us-grid {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     row-gap: 50px;
+  }
+
+  /*Styling of footer area*/
+  .quick-footer {
+    font-size: 20px;
   }
 
   /*styling of horizontal scrollable cards*/
