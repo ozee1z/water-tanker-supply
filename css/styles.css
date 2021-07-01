@@ -691,6 +691,17 @@ footer {
     text-align: center;
   }
 
+  /*Contact us styling*/
+  .contact-us {
+  }
+
+  .contact-us-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+  }
+
   /*styling of horizontal scrollable cards*/
   section .grid {
     width: 500px;
