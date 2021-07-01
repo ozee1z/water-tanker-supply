@@ -571,6 +571,10 @@ footer {
     display: none;
   }
 
+  .container {
+    width: 100%;
+  }
+
   .mobile-container {
     display: block;
     background-color: #047aed;
