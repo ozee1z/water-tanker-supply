@@ -682,17 +682,12 @@ footer {
 
   /*styling contacts*/
   .h3-contact {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
   }
 
   .p-contact {
     font-size: 18px;
-    text-align: center;
-  }
-
-  .h3-contact-time {
-    font-size: 20px;
     text-align: center;
   }
 
