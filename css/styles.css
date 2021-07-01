@@ -699,7 +699,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    row-gap: 50px;
+    row-gap: 40px;
   }
 
   /*styling of horizontal scrollable cards*/
