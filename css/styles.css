@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
   font-weight: 300;
   background-color: #f9fafb;
-  overflow-x: hidden;
 }
 
 header {
@@ -567,6 +566,10 @@ footer {
 /*for mobile devices with width between 320px to 767px*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   /*header and .overlay-image:after are from the desktop view*/
+
+  body {
+    overflow-x: hidden;
+  }
 
   header {
     display: none;
