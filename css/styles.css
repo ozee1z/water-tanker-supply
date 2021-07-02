@@ -755,7 +755,7 @@ footer {
 }
 
 /*solving hovering effect on cards in the services area cards*/
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) {
   section .cards:hover {
     box-shadow: 0 4px 12px rgb(0 0 0 / 25%);
     transform: translateY(-5px);
