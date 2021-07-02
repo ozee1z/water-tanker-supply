@@ -567,11 +567,6 @@ footer {
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   /*header and .overlay-image:after are from the desktop view*/
 
-  /*html, body{
-    width: 100%;
-    position: relative;
-}*/
-
   body,
   html {
     overflow-x: hidden;
@@ -756,5 +751,13 @@ footer {
     background-color: #fff;
     box-shadow: 1px 1px 5px #888888;
     transition: box-shadow 0.2s, transform 0.2s;
+  }
+}
+
+/*solving hovering effect on cards in the services area cards*/
+@media (hover: hover) and (pointer: fine) {
+  section .cards:hover {
+    box-shadow: 0 4px 12px rgb(0 0 0 / 25%);
+    transform: translateY(-5px);
   }
 }
