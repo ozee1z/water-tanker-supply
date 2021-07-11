@@ -556,6 +556,10 @@ footer {
   margin: 20px 0;
 }
 
+.cedis {
+  font-size: 10px;
+}
+
 /*hiding mobile menu so that it does'nt appear in big screens*/
 .mobile-container {
   display: none;
